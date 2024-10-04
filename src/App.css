@@ -1,0 +1,195 @@
+
+
+
+  /* MAIN CSS */
+
+  html,body {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .parent-cont {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .title-cont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: #4e9de7;
+    color: white;
+    width: 95%; /* Set to 100% */
+    border-radius: 1rem; /* Optional: keep if you want rounded edges */
+    margin-top: 1rem; /* Keep only the top margin if desired */
+    margin-left: 1rem; /* Remove left margin */
+    margin-right: 1rem; /* Remove right margin */
+  }
+  
+
+  .main-cont {
+    display: flex;
+  }
+
+  .cont-1 {
+    background-color: #eaf7fc;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2.5rem;
+    padding-right: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .icon {
+    width: 30px;
+  }
+
+  .tag {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 0.25rem 3rem 0.25rem 1rem;
+  }
+
+  .graph-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  .graph-1,
+  .graph-2,
+  .graph-3 {
+    border: 2px solid #d3d1d1;
+    border-radius: 6px;
+    padding: 0.75rem 2.5rem;
+
+  }
+
+.graph-1-title,
+.graph-2-title,
+.graph-3-title {
+  text-align: center;
+}
+
+.toggle-cont {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  padding-left: 1rem;
+}
+
+.graph-toggle-1,
+.graph-toggle-2,
+.graph-toggle-3 {
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.cont-3 {
+  width: 100%;
+}
+
+.search-form {
+  position:fixed;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: 1px solid #bbbbbb;
+  background-color: white;
+  padding-left: 1.75rem;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  width: 60%;
+  border: none;
+  font-size: 17px;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input:focus {
+  border: none;
+}
+
+.emoji {
+  width: 256px;
+  border-radius: 1rem;
+}
+
+.emoji-text {
+  text-align: center;
+}
+
+.emoji-cont {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 1rem;
+  padding-bottom: 0;
+}
+
+
+/* ANIMATIONS */
+.tag {
+  transition: all 0.3s;
+}
+
+.tag:hover {
+  background-color: #ddefff;
+}
+
+.graph {
+  width:360px;
+}
+
+.toggle-btn {
+  border: 1px solid #dddddd;
+  padding: 0.75rem 1.25rem;
+  font-size: 15px;
+  border-radius: 5rem;
+}
+
+
+
+.graph {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-cont {
+  background-color: white;
+}
